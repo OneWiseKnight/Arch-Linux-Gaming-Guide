@@ -13,7 +13,7 @@ Using the Architect script may break something if using an Arch derivative like 
 
 install script
 ```
-sudo pacman -S --needed git base-devel && git clone https://github.com/Cardiacman13/Architect.git ~/Architect && cd ~/Architect && chmod +x ./architect.sh && ./architect.sh
+sudo pacman -S --needed git base-devel && git clone https://github.com/A1RM4X/Architect.git ~/Architect && cd ~/Architect && chmod +x ./architect.sh && ./architect.sh
 ```
 Follow the questions based on your preference and hardware. One personal preference is to not use the Nvidia-ALL GPU driver for those with Nvidia GPU's. I just select no to it but it still installs the Nvidia propietary drivers.
 
