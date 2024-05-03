@@ -28,9 +28,9 @@ sudo pacman -S --needed wine giflib lib32-giflib libpng lib32-libpng libldap lib
 ```
 The idea for which packages to include came from the following sources...
 
-CachyOS Meta Package
-Arch AUR Meta Package
-[Lutris](https://github.com/lutris/docs/blob/master/WineDependencies.md)
+- CachyOS Meta Package
+- Arch AUR Meta Package
+- [Lutris](https://github.com/lutris/docs/blob/master/WineDependencies.md)
 
 # Step 3 - The Kernel
 Each computer has its own preference, however for my PC both the CachyOS EEDEV and TKG EEDEV work perfect.
