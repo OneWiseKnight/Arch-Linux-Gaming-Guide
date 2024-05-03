@@ -30,7 +30,7 @@ Use Proton Up to get the latest Proton-GE version needed for playing Windows gam
 customizing Steam 
 1) Increase the buffers config file
 
-edit/create /.steam/steam/steam_dev.cfg**
+Create/Edit **/.steam/steam/steam_dev.cfg**
 ```
 nano ~/.steam/steam/steam_dev.cfg 
 ```
