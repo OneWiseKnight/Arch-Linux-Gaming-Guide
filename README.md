@@ -1,13 +1,21 @@
 # Arch linux gaming guide
+This a personal guide I use to set up Arch for gaming on a fresh install.
+
+# Step 1 - The Architect Script
+This script will get you 80% there with setting up Arch for gaming. This script was oringally created by Cardiac13. Unfortunetly Cardiac13 terminated his account and passed on the Architect Script to A1RM4X. Just as a precaution and my laziness I forked the project just incase it gets deleted permentantly. I will use their script and linking so they get credit but if that disappears I have the fork on this repo.
+
+Here is the Architect script that A1RM4X is currently maintaining [Gaming-Linux-FR Architect Script](https://github.com/A1RM4X/Architect/blob/main/README-EN.md).
+
+Again big thanks to Cardiac13 for creating the script and A1RM4X for maintaining it.
+
 
 Basic suggestions to enhance gaming performance. For Arch new installs **ONLY** its highly recommended you just go with this script which will get you 90% there.
 
 ### Disclaimer
-This guide should primarly be used on a fresh install of Arch Linux. Using the Architect script may break something for example in Endeavour OS which uses Dracut. Down the road I will have a guide that won't need the Architect script.
+Using the Architect script may break something from an Arch derivative for example in Endeavour OS which uses Dracut. Down the road I will have a guide that won't need the Architect script.
 
-Big Thanks to Cardiac13 for creating the Architect Script. Unfortunetly Cardiac terminated his account and passed on the Architect Script to A1RM4X. Just as a precaution and my laziness I forked the project just incase it gets deleted permentantly. I will use their script and linking so they get credit but if that disappears I have the fork on this repo.
 
-Here is the Architect script that A1RM4X is currently maintaining [Gaming-Linux-FR Architect Script](https://github.com/A1RM4X/Architect/blob/main/README-EN.md).
+
 
 
 ## Linux distribution
