@@ -46,7 +46,8 @@ Create/Edit **/.steam/steam/steam_dev.cfg**
 nano ~/.steam/steam/steam_dev.cfg 
 ```
 Inside the file paste the following...
-```@nClientDownloadEnableHTTP2PlatformLinux 0
+```
+@nClientDownloadEnableHTTP2PlatformLinux 0
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 ```
 ### Step 2 - Set up your game with Proton-GE
