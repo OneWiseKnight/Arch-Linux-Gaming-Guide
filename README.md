@@ -52,3 +52,11 @@ Inside the file paste the following...
 ```
 ## Step B - Set up your game with Proton-GE
 Use Proton Up to get the latest Proton-GE version needed for playing Windows games on Arch
+
+From the `Steam Library` right click your game and select `properties`. Under 'Compatibility' place a check on Force the use of a specific Steam Play compatibility tool and select the Proton GE version you downloaded from Proton-Up.
+
+## Step C - Steam Environmental Variables
+While still in your game properties select `General`. Under launch options for basic variables such as Gamemode and Mangohud use the following...
+```
+gamemoderun MANGOHUD=1 %command%
+```
