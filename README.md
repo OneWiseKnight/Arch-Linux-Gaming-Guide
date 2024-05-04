@@ -42,7 +42,7 @@ This section will configure Steam for download speed and help select environment
 
 ### Step A - Enhance the download speed
 Create/Edit `.steam/steam/steam_dev.cfg`
-```
+```bash
 nano ~/.steam/steam/steam_dev.cfg 
 ```
 Inside the file paste the following...
