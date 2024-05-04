@@ -9,7 +9,7 @@ Here is the Architect script that A1RM4X is currently maintaining [A1RM4X Archit
 Again big thanks to **Cardiac13** for creating the script and **A1RM4X** for maintaining it.
 
 ### Disclaimer
-Using the Architect script may break something if using an Arch derivative like Endeavour OS. That derivative uses Dracut which I don't like. Down the road I will have a guide that won't need the Architect script. So for now use on Arch new installs **ONLY**.
+> Using the Architect script may break something if using an Arch derivative like Endeavour OS. That derivative uses Dracut which I don't like. Down the road I will have a guide that won't need the Architect script. So for now use on Arch new installs **ONLY**.
 
 install script
 ```
