@@ -50,5 +50,5 @@ Inside the file paste the following...
 @nClientDownloadEnableHTTP2PlatformLinux 0
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 ```
-### Step 2 - Set up your game with Proton-GE
+## Step B - Set up your game with Proton-GE
 Use Proton Up to get the latest Proton-GE version needed for playing Windows games on Arch
