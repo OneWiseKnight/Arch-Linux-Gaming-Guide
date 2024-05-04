@@ -40,8 +40,8 @@ Depending on the Kernel your more familar with, install the CachyOS Kernel from 
 # Step 4 - Customizing Steam for Speed and Performance
 This section will configure Steam for download speed and help select environmental variables.
 
-### Step A - Enhance the download speed
-Create/Edit `.steam/steam/steam_dev.cfg`
+## Step A - Enhance the download speed
+### Create/Edit `.steam/steam/steam_dev.cfg`
 ```bash
 nano ~/.steam/steam/steam_dev.cfg 
 ```
