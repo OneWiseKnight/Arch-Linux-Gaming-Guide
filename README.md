@@ -47,6 +47,19 @@ nano ~/.steam/steam/steam_dev.cfg
 ```
 Inside the file paste the following...
 ```
+
+
+
+
+==== DNS ====
+
+To use a peer as a DNS server, add its WireGuard tunnel IP address(es) to [[:/etc/resolv.conf]]. For example, to use peer B as the DNS server:
+
+{{hc|/etc/resolv.conf|
+nameserver fdc9:281f:04d7:9ee9::2
+nameserver 10.0.0.2
+}}
+
 @nClientDownloadEnableHTTP2PlatformLinux 0
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 ```
