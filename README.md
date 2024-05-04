@@ -55,11 +55,9 @@ Use Proton Up to get the latest Proton-GE version needed for playing Windows gam
 
 From the `Steam Library` right click your game and select `properties`. Under 'Compatibility' place a check on Force the use of a specific Steam Play compatibility tool and select the Proton GE version you downloaded from Proton-Up.
 
-
-That's it your basically done, you should be able to click Play on your game and launch it. One protip if your experiencing issues, launch Steam via the terminal, which will help you find the error as everything the app does is printed out.
-
 ## Step C - Steam Environmental Variables
 While still in your game properties select `General`. Under launch options for basic variables such as Gamemode and Mangohud use the following...
 ```
 gamemoderun MANGOHUD=1 %command%
 ```
+That's it your basically done, you should be able to click Play on your game and launch it. One protip if your experiencing issues, launch Steam via the terminal, which will help you find the error as everything the app does is printed out.
