@@ -46,7 +46,7 @@ Create/Edit `.steam/steam/steam_dev.cfg`
 nano ~/.steam/steam/steam_dev.cfg 
 ```
 Inside the file paste the following...
-```
+```bash
 @nClientDownloadEnableHTTP2PlatformLinux 0
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 ```
