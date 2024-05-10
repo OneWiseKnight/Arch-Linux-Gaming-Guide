@@ -1,14 +1,14 @@
 # Arch linux gaming guide
 This a personal guide I use to set up Arch for gaming on a fresh install.
 
-# Step 1 - The Architect Script
+## Step 1 - The Architect Script
 This script will get you 80% there with setting up Arch for gaming. This script was oringally created by Cardiac13. Unfortunetly Cardiac13 terminated his account and passed on the Architect Script to A1RM4X. Just as a precaution and my laziness I forked the project just incase it gets deleted permentantly. I will use their script and linking so they get credit but if that disappears I have the fork on this repo.
 
 Here is the Architect script that A1RM4X is currently maintaining [A1RM4X Architect Script](https://github.com/A1RM4X/Architect/blob/main/README-EN.md).
 
 Again big thanks to **Cardiac13** for creating the script and **A1RM4X** for maintaining it.
 
-## Disclaimer
+### Disclaimer
 > Using the Architect script may break something if using an Arch derivative like Endeavour OS. That derivative uses Dracut which I don't like. Down the road I will have a guide that won't need the Architect script. So for now use on Arch new installs **ONLY**.
 
 install script
@@ -18,7 +18,7 @@ sudo pacman -S --needed git base-devel && git clone https://github.com/A1RM4X/Ar
 Follow the questions based on your preference and hardware. One personal preference is to not use the Nvidia-ALL GPU driver for those with Nvidia GPU's. I just select no to it but it still installs the Nvidia propietary drivers.
 
 
-# Step 2 - Optional Gaming Packages
+## Step 2 - Optional Gaming Packages
 This process is to install packages not covered in the Architect script, or I'm lazy to fix duplicates which there is a lot.
 
 
@@ -38,10 +38,10 @@ Each computer has its own preference, however for my PC both the CachyOS EEDEV a
 
 Depending on the Kernel your more familar with, install the CachyOS Kernel from the AUR or the TKG Kernel from the [Frogging Family Github](https://github.com/Frogging-Family/linux-tkg)
 
-# Step 4 - Customizing Steam for Speed and Performance
+## Step 4 - Customizing Steam for Speed and Performance
 This section will configure Steam for download speed and help select environmental variables.
 
-## Step A - Enhance the download speed
+### Step A - Enhance the download speed
 #### Create/Edit `.steam/steam/steam_dev.cfg`
 ```bash
 nano ~/.steam/steam/steam_dev.cfg 
@@ -51,12 +51,12 @@ Inside the file paste the following...
 @nClientDownloadEnableHTTP2PlatformLinux 0
 @fDownloadRateImprovementToAddAnotherConnection 1.0
 ```
-## Step B - Set up your game with Proton-GE
+### Step B - Set up your game with Proton-GE
 Use Proton Up to get the latest Proton-GE version needed for playing Windows games on Arch
 
 From the `Steam Library` right click your game and select `properties`. Under `Compatibility` place a check on Force the use of a specific Steam Play compatibility tool and select the Proton GE version you downloaded from Proton-Up.
 
-## Step C - Steam Environmental Variables
+### Step C - Steam Environmental Variables
 While still in your game properties select `General`. Under launch options for basic variables such as Gamemode and Mangohud use the following...
 ```
 gamemoderun MANGOHUD=1 %command%
