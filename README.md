@@ -34,7 +34,7 @@ The idea for which packages to include came from the following sources...
 - [Lutris](https://github.com/lutris/docs/blob/master/WineDependencies.md)
 
 ## Step 3 - The Kernel
-Each computer has its own preference, however for my PC both the CachyOS EEDEV and TKG EEDEV work perfect.
+Each computer has its own preference, however for my PC both the CachyOS Linux and TKG PDS kernels have the highest performance.
 
 Depending on the Kernel your more familar with, install the CachyOS Kernel from the AUR or the TKG Kernel from the [Frogging Family Github](https://github.com/Frogging-Family/linux-tkg)
 
