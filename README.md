@@ -64,4 +64,8 @@ While still in your game properties select `General`. Under launch options for b
 ```
 gamemoderun MANGOHUD=1 %command%
 ```
+> [!TIP]
+> Only use the bottom command if you are not on Cachyos or Nobara, and don't want to install any additonal repo.
+> Highly recommended to use the Meta package from Cachyos or Nobara.
+
 That's it your basically done, you should be able to click Play on your game and launch it. One protip if your experiencing issues, launch Steam via the terminal, which will help you find the error as everything the app does is printed out.
