@@ -22,7 +22,7 @@ Follow the questions based on your preference and hardware. One personal prefere
 This process is to install packages not covered in the Architect script, or I'm lazy to fix duplicates which there is a lot.
 
 > [!CAUTION]
-> Only use the bottom command if you are not on Cachyos or Nobara, and don't want to install any additonal repo.
+> Only use the bottom command if you are __not__ on Cachyos or Nobara, and don't want to install any additonal repo.
 > Highly recommended to use the Meta package from Cachyos or Nobara.
 
 ### Packages to install for gaming on Arch (Make sure to read the caution above)
