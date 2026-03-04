@@ -20,7 +20,9 @@ Follow the questions based on your preference and hardware. One personal prefere
 
 ## Step 2 - Optional Gaming Packages
 This process is to install packages not covered in the Architect script, or I'm lazy to fix duplicates which there is a lot.
-
+> [!CAUTION]
+> Negative potential consequences of an action.
+> Don't execute the code without commenting the test cases.
 
 ### Packages to install for gaming on Arch
 ```
