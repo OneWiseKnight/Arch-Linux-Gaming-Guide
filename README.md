@@ -69,6 +69,6 @@ While still in your game properties select `General`. Under launch options for b
 gamemoderun MANGOHUD=1 %command%
 ```
 > [!TIP]
-> Instead of Feral Gamemode, game-performance by Cachyos is very powerful.
+> Instead of Feral Gamemode, game-performance by Cachyos is very powerful and yields better performance in my testing.
 
 That's it your basically done, you should be able to click Play on your game and launch it. One protip if your experiencing issues, launch Steam via the terminal, which will help you find the error as everything the app does is printed out.
