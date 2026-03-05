@@ -1,45 +1,49 @@
 # Arch linux gaming guide
 This a personal guide I use to set up Arch for gaming on a fresh install.
 
-## Step 1 - The Architect Script
-This script will get you 80% there with setting up Arch for gaming. This script was oringally created by Cardiac13. Unfortunetly Cardiac13 terminated his account and passed on the Architect Script to A1RM4X. Just as a precaution and my laziness I forked the project just incase it gets deleted permentantly. I will use their script and linking so they get credit but if that disappears I have the fork on this repo.
+## Step 1 - The Gaming Packages
 
-Here is the Architect script that A1RM4X is currently maintaining [A1RM4X Architect Script](https://github.com/A1RM4X/Architect/blob/main/README-EN.md).
+### Option A - Cachyos/Cachyos Repo is Installed
+> [!NOTE]
+> If you have Cachyos installed or using the Cachyos Repo, then use the Cachyos Meta Package.
 
-Again big thanks to **Cardiac13** for creating the script and **A1RM4X** for maintaining it.
-
-### Disclaimer
-> Using the Architect script may break something if using an Arch derivative like Endeavour OS. That derivative uses Dracut which I don't like. Down the road I will have a guide that won't need the Architect script. So for now use on Arch new installs **ONLY**.
-
-install script
+Open your terminal and use the following command.
 ```
-sudo pacman -S --needed git base-devel && git clone https://github.com/A1RM4X/Architect.git ~/Architect && cd ~/Architect && chmod +x ./architect.sh && ./architect.sh
+sudo pacman -S cachyos-gaming-meta
 ```
-Follow the questions based on your preference and hardware. One personal preference is to not use the Nvidia-ALL GPU driver for those with Nvidia GPU's. I just select no to it but it still installs the Nvidia propietary drivers.
-
-
-## Step 2 - Optional Gaming Packages
-This process is to install packages not covered in the Architect script, or I'm lazy to fix duplicates which there is a lot.
+### Option B - Manual Individual Package
+This option is for those that don't want to use the Cachyos Meta Package.
 
 > [!CAUTION]
 > Only use the bottom command if you are __not__ on Cachyos, or, not planning to install any gaming meta package.
 > Highly recommended to use the Meta package from Cachyos.
 
-### Packages to install for gaming on Arch (Make sure to read the caution above)
 ```
 sudo pacman -S --needed wine giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 \ lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error \ alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite \ libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses \ ocl-icd lib32-ocl-icd libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs \ lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader bottles cups dosbox glfw lib32-opencl-icd-loader lib32-vkd3d \ lutris opencl-icd-loader samba steam steam-native-runtime vkd3d wine-gecko  winetricks gamescope goverlay \ mangohud lib32-mangohud ttf-liberation lib32-fontconfig wqy-zenhei
 ```
 
-The idea for which packages to include came from the following sources...
+### Option C - The Architect Script
+This script will get you 80% there with setting up Arch for gaming.
+> [!CAUTION]
+> Again only use this script if you do not have Cachyos installed or the Cachyos Repo, and using Arch. 
 
-- CachyOS Meta Package
-- Arch AUR Meta Package
-- [Lutris](https://github.com/lutris/docs/blob/master/WineDependencies.md)
+Here is the link to the Architect script [Cardiacman13 Architect Script](https://github.com/Cardiacman13/Architect).
+Again big thanks to **Cardiac13** for creating the script.
+
+> [!NOTE]
+> The Architect script is intended for clean installs of Arch. In the same vein using the script in a derivative may break something. Rather than take a risk check on the Architect Script's author website for more information.
+
+## Step 2 - Optional Gaming Packages
+Install the software of choice, whether it is Steam, Lutris, or Bottles.
+
+
+
+The idea for which packages to include came from the following sources...
 
 ## Step 3 - The Kernel
 Each computer has its own preference, however for my PC both the CachyOS Linux and TKG PDS kernels have the highest performance.
 
-Depending on the Kernel your more familar with, install the CachyOS Kernel from the AUR or the TKG Kernel from the [Frogging Family Github](https://github.com/Frogging-Family/linux-tkg)
+Depending on the Kernel your more familar with, install the CachyOS Kernel from the Cachyos Repo, Compile it, or get the TKG Kernel from the [Frogging Family Github](https://github.com/Frogging-Family/linux-tkg)
 
 ## Step 4 - Customizing Steam for Speed and Performance
 This section will configure Steam for download speed and help select environmental variables.
